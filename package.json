@@ -14,10 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.5",
-    "rimraf": "^3.0.1",
-    "rxjs": "^6.5.4"
+    "rimraf": "^3.0.1"    
   },
   "devDependencies": {
     "nodemon": "^2.0.2",
@@ -27,6 +27,8 @@
     "babel-cli": "^6.26.0"
   },
   "babel": {
-    "presets": ["@babel/preset-env"]
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }
